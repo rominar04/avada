@@ -1,0 +1,15 @@
+@import url("font-awesome.min.css");
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	letter-spacing: .05em;
+	margin: 0 auto;
+	  border:1px solid #FFFFFF;
+	  background-color:#000000;
+	  padding:20px;
+	margine:20px;
+	line-height:2em;
+}
+.text-color-white {
+	color: #ffffff;
+}

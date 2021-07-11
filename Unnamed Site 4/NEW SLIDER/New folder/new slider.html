@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="css/camera.css" rel="stylesheet" type="text/css">
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery.easing.1.3.js"></script>
+<script src="scripts/camera.min.js"></script>
+<style>
+b{	
+z-index: 1;	
+text-align:left;
+	font-size:24px;
+	}
+	</style>
+</head>
+
+<body>
+<div class="camera_wrap">
+    <div data-src="9573.jpg">
+    	<div id="b">Beauty and Brains</div>
+    </div>
+  <div>
+    <iframe src="shv_hand (1).mp4" width="100%" height="400px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+   <div>
+    <iframe src="shv_sunrise.mp4" width="100%" height="400px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+</div>
+
+<script>
+jQuery('.camera_wrap').camera({
+		pagination: false,
+		fx: 'simpleFade',
+		height:'30%'
+
+	});
+</script>
+</body>
+</html>

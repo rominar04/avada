@@ -1,0 +1,234 @@
+.containter {
+	width:100%;
+	margin:0 auto;
+}
+.row:after,.containter:after{
+	content:"";
+	clear:both;
+	display:block;
+	height:0;
+	visibility:hidden;	
+}
+
+.containter .g1,.containter .g2,.containter .g3,.containter .g4,.containter .g5,.containter .g6,.containter .g7,.containter .g8,.containter .g9,.containter .g10,.containter .g11,.containter .g12,.fl,.one-half,.one-third,.two-third,.one-quarter,.three-quarter{
+	width:100%;
+	padding:0 10px;
+	box-sizing:border-box;
+}
+.g1 {
+	width: 80px;
+}
+.g2 {
+	width: 160px;
+}
+.g3 {
+	width: 240px;
+}
+.g4 {
+	width: 320px;
+}
+.g5 {
+	width: 400px;
+}
+.g6 {
+	width: 480px;
+}
+.g7 {
+	width: 560px;
+}
+.g8 {
+	width: 640px;
+}
+.g9 {
+	width: 720px;
+}
+.g10 {
+	width: 800px;
+}
+.g11 {
+	width: 880px;
+}
+.g12 {
+	width: 960px;
+}
+.full-width .one-half,.full-width  .one-third,.full-width  .two-third,.full-width  .one-quarter,.full-width  .three-quarter{
+	padding:0;	
+}
+/*relative grid*/
+.one-half{
+	width: 50%;
+		
+}
+.one-third{
+	width: 33.3333%;
+		
+}
+.two-third{
+	width:66.6666%;	
+}
+.one-quarter{
+	width:25%;	
+}
+.three-quarter{
+	width:75%;	
+}
+
+
+.img-responsive{
+	max-width:100%;
+	height:auto;
+}
+.img-responsive-full-width{
+	width:100%;
+	height:auto;
+}
+.line-height-0{
+	line-height:0px;	
+}
+@media only screen and (min-width:780px) {
+	.box {
+	width: 50%;
+	float: left;
+	padding: 15px;
+}
+}
+@media only screen and (max-width:969px){
+	.menu ul{
+		display:none;	
+	}
+}
+@media only screen and (min-width:970px) {
+.containter{
+	width:960px;
+
+}
+
+.row{
+	min-width:960px;	
+}
+
+.containter .g1,.containter .g2,.containter .g3,.containter .g4,.containter .g5,.containter .g6,.containter .g7,.containter .g8,.containter .g9,.containter .g10,.containter .g11,.containter .g12,.fl,.one-half,.one-third,.two-third,.one-quarter,.three-quarter{
+	float:left;
+}
+
+.relative-box-inner{
+	margin:0 -10px;	
+}
+/*absolute grid*/
+.containter .g1{width:80px;}
+.containter .g2{width:160px;}
+.containter .g3{width:240px;}
+.containter .g4{width:320px;}
+.containter .g5{width:400px;}
+.containter .g6{width:480px;}
+.containter .g7{width:560px;}
+.containter .g8{width:640px;}
+.containter .g9{width:720px;}
+.containter .g10{width:800px;}
+.containter .g11{width:880px;}
+.containter .g12{width:960px;}
+/*relative grid*/
+.one-half{
+	width: 50%;
+		
+}
+.one-third{
+	width: 33.3333%;
+		
+}
+.two-third{
+	width:66.6666%;	
+}
+.one-quarter{
+	width:25%;	
+}
+.three-quarter{
+	width:75%;	
+}
+
+
+.img-responsive{
+	max-width:100%;
+	height:auto;
+}
+.img-responsive-full-width{
+	width:100%;
+	height:auto;
+}
+.line-height-0{
+	line-height:0px;	
+}
+.menu ul li{
+	float:left;	
+}
+.menu ul li a{
+	text-decoration:none;
+	display:block;
+	padding:7px 15px;	
+	color:#555555;
+}
+.menu-header{ display:none}
+}
+@media screen and (min-width:1170px){
+	.containter{
+		width:1170px;
+	}
+	.row{
+		min-width:1170px;	
+	}
+
+	/*absolute grid*/
+	.containter .g1{width:97.5px;}
+	.containter .g2{width:195px;}
+	.containter .g3{width:292.5px;}
+	.containter .g4{width:390px;}
+	.containter .g5{width:487.5px;}
+	.containter .g6{width:585px;}
+	.containter .g7{width:682.5px;}
+	.containter .g8{width:780px;}
+	.containter .g9{width:877.5px;}
+	.containter .g10{width:975px;}
+	.containter .g11{width:1072.5px;}
+	.containter .g12{width:1170px;}
+
+}
+.card{
+	/*width:260px ;
+	height:180px ;*/
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+	float:left;
+	}
+.card:hover{
+	 transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+	}
+.face {
+     backface-visibility: visible;
+    height:100%;
+    left: 0;
+	top: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+	}		
+.front{
+    
+    z-index: 10;
+	}
+.back{
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+	position:relative;
+
+	}	
+.card:hover .front {
+      z-index: 0;
+}

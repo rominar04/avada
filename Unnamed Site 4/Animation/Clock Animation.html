@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clock Animation</title>
+
+<style>
+body{
+	background-color:#ffffff;	
+}
+@keyframes move{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}
+@-webkit-keyframes move{
+	from{-webkit-transform:rotate(0deg)}
+	to{-webkit-transform:rotate(360deg)}
+}
+
+/*#cl{
+	position:absolute;
+	left:400px;
+	top:100px;
+	
+}
+#hn{
+	position:absolute;
+	left:500px;
+	top:300px;
+	z-index:2;	
+	transform:rotateX(45deg);
+	animation:move 4000ms linear infinite ;
+	-webkit-animation:move 9000ms linear infinite ;
+}*/
+#hn{
+	position:absolute;
+	left:203px;
+	top:70px;
+	z-index:2;
+	transform-origin:bottom center;	
+	animation:move 9000ms linear infinite ;
+	-webkit-animation:move 9000ms linear infinite ;
+	}
+</style>
+</head>
+
+<body>
+<img src="images/clock-no hand.jpeg" alt="" id="cl"/>
+<img src="images/hand2-3.jpg" alt="" id="hn"/>
+
+</body>
+</html>

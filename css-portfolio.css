@@ -1,0 +1,12 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	letter-spacing: .05em;
+	margin: 0 auto;
+}
+.padding-0{
+	padding:0px;
+	}
+	#no-padding .g6,#no-padding .g5,#no-padding .g4,#no-padding .g3,#no-padding .g8{
+		padding:0px;
+		}

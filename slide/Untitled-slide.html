@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head> 
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery.easing.1.3.js"></script>
+<script src="scripts/camera.min.js"></script>
+<link href="css/camera.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="camera_wrap">
+    <div data-src="kts-eng.png"> 
+    	<div class="camera_caption">koreanTopStars-Eng</div>
+    </div>
+  
+    <div data-src="kts-p.png">
+    	<div class="camera_caption">koreanTopStars-Persian</div>
+    </div>
+   
+    <div data-src="responsive.png">
+    	<div class="camera_caption">Avada-Responsive</div>
+    </div>
+     
+    <div data-src="non-responsive.png">
+    	<div class="camera_caption">Avada-Non-Responsive</div>
+    </div>
+     
+    <div data-src="animation.png">
+    	<div class="camera_caption">Animation</div>
+    </div>
+</div>
+
+<script>
+jQuery('.camera_wrap').camera({
+		pagination: false,
+		fx: 'simpleFade',
+		height:'30%'
+
+	});
+</script>
+</body>
+</html>

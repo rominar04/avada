@@ -1,0 +1,56 @@
+.containter {
+	width:960px;
+	margin:0 auto;
+}
+.row {
+	min-width: 960px;
+}
+.row:after {
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0px;
+}
+
+.containter .g1, .containter .g2, .containter .g3, .containter .g4, .containter .g5, .containter .g6, .containter .g7, .containter .g8, .containter .g9, .containter .g10, .containter .g11, .containter .g12 {
+	float: left;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.g1 {
+	width: 80px;
+}
+.g2 {
+	width: 160px;
+}
+.g3 {
+	width: 240px;
+}
+.g4 {
+	width: 320px;
+}
+.g5 {
+	width: 400px;
+}
+.g6 {
+	width: 480px;
+}
+.g7 {
+	width: 560px;
+}
+.g8 {
+	width: 640px;
+}
+.g9 {
+	width: 720px;
+}
+.g10 {
+	width: 800px;
+}
+.g11 {
+	width: 880px;
+}
+.g12 {
+	width: 960px;
+}

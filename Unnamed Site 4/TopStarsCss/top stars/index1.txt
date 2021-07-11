@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <center> <tiltle> <h1>Korean Top Stars </h1>  </tiltle> </center>
+   <meta charset="en">
+   <meta name="description" content="">
+  </head>
+  <body>
+ <br> <center> <img src="LJG1.png"> <img src="jcw1.png"> <img src="jw1.png"> <img src="sjk1.png"> </center>
+  </body>
+  </html>

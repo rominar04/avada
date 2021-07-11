@@ -1,0 +1,11 @@
+ @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css)
+body{
+	font-size:18px;
+	font-family:'Droid Arabic Kufi', sans-serif;
+	direction:rtl;
+}
+br,h2,h4{
+	style:float:right}
+
+.ltr{direction:ltr}
+.en-font{font-family:'open sans',sans-serif}
